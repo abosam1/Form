@@ -1,0 +1,5 @@
+{
+  "name": "Pharmacotherapy Care Manager",
+  "description": "A comprehensive clinical pharmacy tool for tracking patient demographics, laboratory investigations, ward medications, and drug-related problems.",
+  "requestFramePermissions": []
+}
