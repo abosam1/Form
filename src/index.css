@@ -11,25 +11,3 @@
     @apply bg-slate-50 text-slate-900 font-sans;
   }
 }
-
-.medical-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1rem;
-}
-
-.lab-table th, .lab-table td {
-  @apply border border-slate-200 p-2 text-sm;
-}
-
-.lab-table th {
-  @apply bg-slate-100 font-semibold text-left;
-}
-
-input, textarea, select {
-  @apply w-full px-3 py-2 bg-white border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all;
-}
-
-label {
-  @apply block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1;
-}
